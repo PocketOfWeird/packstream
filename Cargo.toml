@@ -1,0 +1,8 @@
+[package]
+name = "packstream"
+version = "0.1.0"
+authors = ["Nigel Small <nigel@nigelsmall.name>", "Nathan Hartzler <hartzlernathan@gmail.com>"]
+
+[dependencies]
+serde = "*"
+serde_derive = "*"
