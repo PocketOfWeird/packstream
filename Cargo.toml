@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Nigel Small <nigel@nigelsmall.name>", "Nathan Hartzler <hartzlernathan@gmail.com>"]
 description = "An co-dependency of neo4j_rust_bolt"
 repository = "https://github.com/PocketOfWeird/packstream"
-license = "APACHE"
+license = "Apache-2.0"
 
 [dependencies]
 serde = "*"

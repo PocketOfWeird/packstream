@@ -421,6 +421,7 @@ mod tests {
 
     mod casting {
         use super::super::*;
+        use values::{ValueCast, ValueMatch};
 
         #[test]
         fn should_cast_value_from_true() {
@@ -493,6 +494,7 @@ mod tests {
 
     mod packing {
         use super::super::*;
+        use values::ValueMatch;
 
         #[test]
         fn should_pack_and_unpack_null() {
